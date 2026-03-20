@@ -20,7 +20,7 @@ const GLOBAL_CSS = `
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html, body {
-    background: #000;
+    background: rgb(51 48 48);
     color: bg-[#06141d];
     font-family: 'Sora', sans-serif;
     overflow-x: hidden;
@@ -660,7 +660,7 @@ export default function App() {
           <h1 style={{ fontSize:"clamp(24px,5vw,44px)", fontWeight:800, letterSpacing:-1, marginBottom:10, lineHeight:1.1 }}>
             Build the{" "}
             <span style={{ background:"linear-gradient(90deg,#008a6c,#00ffc8)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent" }}>
-              Birthday Mosaic
+              Happy Birthday Mosaic
             </span>
           </h1>
           <p style={{ fontSize:12, color:"rgba(255,255,255,.33)", fontWeight:300, letterSpacing:1, maxWidth:420, margin:"0 auto" }}>
