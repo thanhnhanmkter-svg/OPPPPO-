@@ -21,7 +21,7 @@ const GLOBAL_CSS = `
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html, body {
     background: #000;
-    color: #fff;
+    color: bg-[#06141d];
     font-family: 'Sora', sans-serif;
     overflow-x: hidden;
   }
@@ -127,7 +127,7 @@ function Header({ filled, total }) {
           <div style={{ width:32, height:32, borderRadius:8, background:"linear-gradient(135deg,#008a6c,#00ffc8)", display:"flex", alignItems:"center", justifyContent:"center", fontWeight:800, fontSize:13, color:"#000", letterSpacing:1 }}>OP</div>
           <div>
             <div style={{ fontWeight:700, fontSize:13, letterSpacing:3 }}>OPPO</div>
-            <div style={{ fontSize:9, letterSpacing:2, color:"#00ffc877", fontWeight:300 }}>BIRTHDAY MOSAIC</div>
+            <div style={{ fontSize:9, letterSpacing:2, color:"text-[#00ffcc]", fontWeight:300 }}>BIRTHDAY MOSAIC</div>
           </div>
         </div>
         {/* Right: online + pct */}
